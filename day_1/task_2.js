@@ -1,8 +1,8 @@
-const {readInput} = require("./utils.js")
+const {readInput} = require("./../utils.js")
 
 //top three elfs by calories
 const task_2 = () => {
-    const fileContent = readInput();
+    const fileContent = readInput(1);
     const sums = [];
     let currentSum = 0;
 

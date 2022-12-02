@@ -1,8 +1,8 @@
-const {readInput} = require("./utils.js")
+const {readInput} = require("./../utils.js")
 
 //most calories carried by 1 elf
 const task_1 = () => {
-    const fileContent = readInput();
+    const fileContent = readInput(1);
     let max = 0;
     let currentSum = 0;
 
